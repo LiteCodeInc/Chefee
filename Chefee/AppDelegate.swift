@@ -29,9 +29,9 @@ import Intents
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
     var window: UIWindow?
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
         INPreferences.requestSiriAuthorization { status in
@@ -41,6 +41,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         
         return true
+    }
+    
+    func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([UIUserActivityRestoring]?) -> Void) -> Bool {
+        switch userActivity.activityType {
+        case "com.buglife.sirikitapp.Chefee.chickenGrilled":
+            if let viewController = window?.rootViewController as? ViewController {
+                viewController.testPrint()
+            }
+        default:
+            print("No result found")
+        }
+        
+        return false
     }
 }
 

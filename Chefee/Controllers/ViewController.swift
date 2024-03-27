@@ -43,6 +43,23 @@ class ViewController: UIViewController {
         let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "AskSiriForFood") as? AskSiriForFood
         self.navigationController?.pushViewController(vc!, animated: true)
         
+        createUserActivity()
+        
+    }
+    
+    func testPrint() {
+        print("Here is your Grilled Chicken...")
+    }
+    
+    func createUserActivity() {
+        let activity = NSUserActivity(activityType: "com.buglife.sirikitapp.Chefee.chickenGrilled")
+        activity.title = "Cook Chicken Grilled"
+        activity.isEligibleForSearch = true
+        activity.isEligibleForPrediction = true
+        activity.suggestedInvocationPhrase = "Cook Chicken Grilled"
+        
+        self.userActivity = activity
+        self.userActivity?.becomeCurrent()
     }
 
 }

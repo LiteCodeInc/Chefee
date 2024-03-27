@@ -31,34 +31,10 @@
 		B77E41EC1D251D4D004F1572 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B77E41EA1D251D4D004F1572 /* Main.storyboard */; };
 		B77E41EE1D251D4D004F1572 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B77E41ED1D251D4D004F1572 /* Assets.xcassets */; };
 		B77E41F11D251D4D004F1572 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B77E41EF1D251D4D004F1572 /* LaunchScreen.storyboard */; };
-		B77E41FF1D251ED0004F1572 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77E41FE1D251ED0004F1572 /* IntentHandler.swift */; };
-		B77E42081D251ED0004F1572 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77E42071D251ED0004F1572 /* IntentsUI.framework */; };
-		B77E420B1D251ED0004F1572 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77E420A1D251ED0004F1572 /* IntentViewController.swift */; };
-		B77E420E1D251ED0004F1572 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B77E420C1D251ED0004F1572 /* MainInterface.storyboard */; };
-		B77E42121D251ED0004F1572 /* ChefeeIntentsExtensionUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B77E42051D251ED0004F1572 /* ChefeeIntentsExtensionUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		B77E42151D251ED0004F1572 /* ChefeeIntentsExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B77E41FC1D251ED0004F1572 /* ChefeeIntentsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		B77E421E1D25A6BC004F1572 /* watman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B77E421D1D25A6BC004F1572 /* watman.jpg */; };
 		BA170ECA2BB291BE00473086 /* AskSiriForFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA170EC82BB291BE00473086 /* AskSiriForFood.swift */; };
 		BA170ECB2BB291BE00473086 /* ScanQRCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA170EC92BB291BE00473086 /* ScanQRCodeVC.swift */; };
 		BA8D11032BB29E02008611C6 /* QRCodeCameraScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8D11022BB29E02008611C6 /* QRCodeCameraScannerVC.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B77E42101D251ED0004F1572 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B77E41DB1D251D4D004F1572 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B77E42041D251ED0004F1572;
-			remoteInfo = BatmobileIntentsExtensionUI;
-		};
-		B77E42131D251ED0004F1572 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B77E41DB1D251D4D004F1572 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B77E41FB1D251ED0004F1572;
-			remoteInfo = BatmobileIntentsExtension;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		B77E421C1D251ED0004F1572 /* Embed App Extensions */ = {
@@ -67,8 +43,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				B77E42151D251ED0004F1572 /* ChefeeIntentsExtension.appex in Embed App Extensions */,
-				B77E42121D251ED0004F1572 /* ChefeeIntentsExtensionUI.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,15 +77,7 @@
 		B77E41ED1D251D4D004F1572 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B77E41F01D251D4D004F1572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B77E41F21D251D4D004F1572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B77E41FC1D251ED0004F1572 /* ChefeeIntentsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ChefeeIntentsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		B77E41FE1D251ED0004F1572 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
-		B77E42001D251ED0004F1572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B77E42051D251ED0004F1572 /* ChefeeIntentsExtensionUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ChefeeIntentsExtensionUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		B77E42071D251ED0004F1572 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
-		B77E420A1D251ED0004F1572 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
-		B77E420D1D251ED0004F1572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		B77E420F1D251ED0004F1572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B77E421D1D25A6BC004F1572 /* watman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = watman.jpg; sourceTree = "<group>"; };
 		BA170EC82BB291BE00473086 /* AskSiriForFood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AskSiriForFood.swift; sourceTree = "<group>"; };
 		BA170EC92BB291BE00473086 /* ScanQRCodeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanQRCodeVC.swift; sourceTree = "<group>"; };
 		BA8D11022BB29E02008611C6 /* QRCodeCameraScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeCameraScannerVC.swift; sourceTree = "<group>"; };
@@ -122,21 +88,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B77E41F91D251ED0004F1572 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B77E42021D251ED0004F1572 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B77E42081D251ED0004F1572 /* IntentsUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,8 +135,6 @@
 			isa = PBXGroup;
 			children = (
 				B77E41E51D251D4D004F1572 /* Chefee */,
-				B77E41FD1D251ED0004F1572 /* ChefeeIntentsIntentsExtension */,
-				B77E42091D251ED0004F1572 /* ChefeeIntentsExtensionUI */,
 				B77E42061D251ED0004F1572 /* Frameworks */,
 				B77E41E41D251D4D004F1572 /* Products */,
 			);
@@ -195,8 +144,6 @@
 			isa = PBXGroup;
 			children = (
 				B77E41E31D251D4D004F1572 /* ChefeeTest.app */,
-				B77E41FC1D251ED0004F1572 /* ChefeeIntentsExtension.appex */,
-				B77E42051D251ED0004F1572 /* ChefeeIntentsExtensionUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -216,32 +163,12 @@
 			path = Chefee;
 			sourceTree = "<group>";
 		};
-		B77E41FD1D251ED0004F1572 /* ChefeeIntentsIntentsExtension */ = {
-			isa = PBXGroup;
-			children = (
-				B77E41FE1D251ED0004F1572 /* IntentHandler.swift */,
-				B77E42001D251ED0004F1572 /* Info.plist */,
-			);
-			path = ChefeeIntentsIntentsExtension;
-			sourceTree = "<group>";
-		};
 		B77E42061D251ED0004F1572 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				B77E42071D251ED0004F1572 /* IntentsUI.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B77E42091D251ED0004F1572 /* ChefeeIntentsExtensionUI */ = {
-			isa = PBXGroup;
-			children = (
-				B77E421D1D25A6BC004F1572 /* watman.jpg */,
-				B77E420A1D251ED0004F1572 /* IntentViewController.swift */,
-				B77E420C1D251ED0004F1572 /* MainInterface.storyboard */,
-				B77E420F1D251ED0004F1572 /* Info.plist */,
-			);
-			path = ChefeeIntentsExtensionUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,47 +186,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				B77E42111D251ED0004F1572 /* PBXTargetDependency */,
-				B77E42141D251ED0004F1572 /* PBXTargetDependency */,
 			);
 			name = Chefee;
 			productName = Batmobile;
 			productReference = B77E41E31D251D4D004F1572 /* ChefeeTest.app */;
 			productType = "com.apple.product-type.application";
-		};
-		B77E41FB1D251ED0004F1572 /* ChefeeIntentsExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B77E42191D251ED0004F1572 /* Build configuration list for PBXNativeTarget "ChefeeIntentsExtension" */;
-			buildPhases = (
-				B77E41F81D251ED0004F1572 /* Sources */,
-				B77E41F91D251ED0004F1572 /* Frameworks */,
-				B77E41FA1D251ED0004F1572 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ChefeeIntentsExtension;
-			productName = BatmobileIntentsExtension;
-			productReference = B77E41FC1D251ED0004F1572 /* ChefeeIntentsExtension.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
-		B77E42041D251ED0004F1572 /* ChefeeIntentsExtensionUI */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B77E42161D251ED0004F1572 /* Build configuration list for PBXNativeTarget "ChefeeIntentsExtensionUI" */;
-			buildPhases = (
-				B77E42011D251ED0004F1572 /* Sources */,
-				B77E42021D251ED0004F1572 /* Frameworks */,
-				B77E42031D251ED0004F1572 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ChefeeIntentsExtensionUI;
-			productName = BatmobileIntentsExtensionUI;
-			productReference = B77E42051D251ED0004F1572 /* ChefeeIntentsExtensionUI.appex */;
-			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -312,16 +203,6 @@
 				ORGANIZATIONNAME = Buglife;
 				TargetAttributes = {
 					B77E41E21D251D4D004F1572 = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = YBC6QZE5G7;
-						ProvisioningStyle = Automatic;
-					};
-					B77E41FB1D251ED0004F1572 = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = YBC6QZE5G7;
-						ProvisioningStyle = Automatic;
-					};
-					B77E42041D251ED0004F1572 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = YBC6QZE5G7;
 						ProvisioningStyle = Automatic;
@@ -343,8 +224,6 @@
 			projectRoot = "";
 			targets = (
 				B77E41E21D251D4D004F1572 /* Chefee */,
-				B77E41FB1D251ED0004F1572 /* ChefeeIntentsExtension */,
-				B77E42041D251ED0004F1572 /* ChefeeIntentsExtensionUI */,
 			);
 		};
 /* End PBXProject section */
@@ -357,22 +236,6 @@
 				B77E41F11D251D4D004F1572 /* LaunchScreen.storyboard in Resources */,
 				B77E41EE1D251D4D004F1572 /* Assets.xcassets in Resources */,
 				B77E41EC1D251D4D004F1572 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B77E41FA1D251ED0004F1572 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B77E42031D251ED0004F1572 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B77E420E1D251ED0004F1572 /* MainInterface.storyboard in Resources */,
-				B77E421E1D25A6BC004F1572 /* watman.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,36 +273,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B77E41F81D251ED0004F1572 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B77E41FF1D251ED0004F1572 /* IntentHandler.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B77E42011D251ED0004F1572 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B77E420B1D251ED0004F1572 /* IntentViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B77E42111D251ED0004F1572 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B77E42041D251ED0004F1572 /* ChefeeIntentsExtensionUI */;
-			targetProxy = B77E42101D251ED0004F1572 /* PBXContainerItemProxy */;
-		};
-		B77E42141D251ED0004F1572 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B77E41FB1D251ED0004F1572 /* ChefeeIntentsExtension */;
-			targetProxy = B77E42131D251ED0004F1572 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B77E41EA1D251D4D004F1572 /* Main.storyboard */ = {
@@ -456,14 +290,6 @@
 				B77E41F01D251D4D004F1572 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		B77E420C1D251ED0004F1572 /* MainInterface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B77E420D1D251ED0004F1572 /* Base */,
-			);
-			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -592,62 +418,6 @@
 			};
 			name = Release;
 		};
-		B77E42171D251ED0004F1572 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = YBC6QZE5G7;
-				INFOPLIST_FILE = ChefeeIntentsExtensionUI/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buglife.sirikitapp.Chefee.BatmobileIntentsExtensionUI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
-			};
-			name = Debug;
-		};
-		B77E42181D251ED0004F1572 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = YBC6QZE5G7;
-				INFOPLIST_FILE = ChefeeIntentsExtensionUI/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buglife.sirikitapp.Chefee.BatmobileIntentsExtensionUI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
-			};
-			name = Release;
-		};
-		B77E421A1D251ED0004F1572 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = YBC6QZE5G7;
-				INFOPLIST_FILE = ChefeeIntentsIntentsExtension/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buglife.sirikitapp.Chefee.ChefeeIntentsExtension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
-			};
-			name = Debug;
-		};
-		B77E421B1D251ED0004F1572 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = YBC6QZE5G7;
-				INFOPLIST_FILE = ChefeeIntentsIntentsExtension/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buglife.sirikitapp.Chefee.ChefeeIntentsExtension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -665,24 +435,6 @@
 			buildConfigurations = (
 				B77E41F61D251D4D004F1572 /* Debug */,
 				B77E41F71D251D4D004F1572 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B77E42161D251ED0004F1572 /* Build configuration list for PBXNativeTarget "ChefeeIntentsExtensionUI" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B77E42171D251ED0004F1572 /* Debug */,
-				B77E42181D251ED0004F1572 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B77E42191D251ED0004F1572 /* Build configuration list for PBXNativeTarget "ChefeeIntentsExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B77E421A1D251ED0004F1572 /* Debug */,
-				B77E421B1D251ED0004F1572 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
